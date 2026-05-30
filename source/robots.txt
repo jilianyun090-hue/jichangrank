@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /home_content.html
+Disallow: /home_content
+
+Sitemap: https://jichangrank.com/sitemap.xml

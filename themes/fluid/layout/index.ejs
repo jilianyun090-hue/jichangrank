@@ -1,0 +1,27 @@
+<%
+if (theme.index.slogan.enable) {
+  page.subtitle = theme.index.slogan.text || config.subtitle || ''
+}
+page.banner_img = theme.index.banner_img
+page.banner_img_height = theme.index.banner_img_height
+page.banner_mask_alpha = theme.index.banner_mask_alpha
+%>
+
+<%
+var customIndex = site.pages.findOne({source: 'index.html'});
+if (customIndex) {
+%>
+  <div class="container nopadding-x-md">
+    <div style="padding: 30px 40px;">
+      <article class="page-content">
+        <%- customIndex.content %>
+      </article>
+    </div>
+    </div>
+  </div>
+<% } else { %>
+  <h1 style="display: none"><%= config.title %></h1>
+  <div class="container text-center py-5">
+    <h2>Custom index.html not found.</h2>
+  </div>
+<% } %>

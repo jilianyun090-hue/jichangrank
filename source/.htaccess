@@ -1,0 +1,23 @@
+Options -Indexes
+RewriteEngine On
+
+# 重定向 home_content.html 到首页以防止重复收录
+RewriteRule ^home_content\.html$ / [R=301,L]
+
+
+# 如果请求的是真实存在的文件或目录，直接访问
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 处理日期格式URL：/2026/03/14/guangnian/ → /guangnian.html（301永久重定向）
+RewriteRule ^[0-9]{4}/[0-9]{2}/[0-9]{2}/([^/]+)/?$ /$1.html [R=301,L]
+
+# 去掉末尾斜杠（/magic-ladder/ → /magic-ladder）
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# 如果访问的路径不带.html，但对应的.html文件存在，则内部重写（不跳转，直接显示内容）
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+

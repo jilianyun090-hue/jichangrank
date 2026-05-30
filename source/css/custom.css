@@ -1,0 +1,25 @@
+/* ===== 自定义 Footer 样式 ===== */
+footer {
+  background-color: #29a8e0 !important;
+}
+
+footer .footer-inner {
+  padding: 1rem 0;
+}
+
+footer .footer-content {
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+}
+
+footer .footer-content a {
+  color: #fff !important;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+footer .footer-content a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}

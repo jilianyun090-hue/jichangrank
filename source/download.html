@@ -1,0 +1,340 @@
+---
+title: 各平台客户端软件下载中心（Clash/V2ray/Shadowrocket等）
+date: 2026-03-14 14:30:00
+layout: page
+description: "提供Windows、Mac、Android、iOS等多平台主流网络客户端下载，包括Clash Verge、Shadowrocket、v2rayN等工具，提供官方及高速下载链接，方便进行节点配置与网络优化。"
+---
+<h1 style="font-size:1.6em;margin:0 0 18px 0;">各平台客户端软件下载与配置工具</h1>
+
+<style>
+.download-tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.download-tab-nav a {
+  padding: 8px 16px;
+  background: #f7fafc;
+  border-radius: 20px;
+  color: #4a5568;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: 1px solid #edf2f7;
+}
+.download-tab-nav a:hover {
+  background: #ebf8ff;
+  color: #3182ce;
+  border-color: #bee3f8;
+}
+.download-section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #5b73e8;
+  padding-bottom: 10px;
+}
+.download-section-title h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #2d3748;
+}
+.os-icon {
+  font-size: 1.8em;
+}
+.download-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.download-table th, .download-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #edf2f7;
+}
+.download-table th {
+  background: #f7fafc;
+  color: #4a5568;
+}
+.badge {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: normal;
+  margin-left: 8px;
+}
+.badge.new { background: #f0fff4; color: #38a169; border: 1px solid #c6f6d5; }
+.badge.stopped { background: #fff5f5; color: #e53e3e; border: 1px solid #fed7d7; }
+.btn-fast {
+  background: linear-gradient(135deg, #5b73e8, #30a9de);
+  color: white !important;
+  padding: 5px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.btn-backup {
+  background: #edf2f7;
+  color: #4a5568 !important;
+  padding: 5px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.btn-github {
+  border: 1px solid #cbd5e0;
+  color: #4a5568 !important;
+  padding: 4px 11px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.btn-store {
+  background: #1a202c;
+  color: white !important;
+  padding: 5px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+}
+.alert-box {
+  background: #fffaf0;
+  border-left: 4px solid #dd6b20;
+  padding: 12px 15px;
+  color: #c05621;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+[data-user-color-scheme='dark'] .download-table { background: #252d38; }
+[data-user-color-scheme='dark'] .download-table th { background: #1f2731; border-color: #435266; color: #c4c6c9; }
+[data-user-color-scheme='dark'] .download-table td { border-color: #435266; }
+[data-user-color-scheme='dark'] .download-section-title h2 { color: #c4c6c9; }
+[data-user-color-scheme='dark'] .download-tab-nav a { background: #1f2731; border-color: #435266; color: #c4c6c9; }
+[data-user-color-scheme='dark'] .download-tab-nav a:hover { background: #252d38; color: #30a9de; }
+[data-user-color-scheme='dark'] .btn-backup { background: #364151; color: #e2e8f0 !important; }
+[data-user-color-scheme='dark'] .btn-github { border-color: #4a5568; color: #e2e8f0 !important; }
+[data-user-color-scheme='dark'] .badge.new { background: #1c4532; color: #68d391; border-color: #276749; }
+[data-user-color-scheme='dark'] .badge.stopped { background: #742a2a; color: #fc8181; border-color: #9b2c2c; }
+[data-user-color-scheme='dark'] .alert-box { background: #4a2311; border-color: #c05621; color: #fbd38d; }
+
+@media (max-width: 768px) {
+  .download-table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+</style>
+
+<div class="download-tab-nav">
+  <a href="#windows">🖥 Windows</a>
+  <a href="#android">🤖 Android</a>
+  <a href="#ios">🍎 iOS</a>
+  <a href="#macos">💻 macOS</a>
+  <a href="#harmonyos">📱 HarmonyOS</a>
+</div>
+
+<div class="download-container">
+  <!-- Windows Section -->
+  <section id="windows" class="content-section">
+    <div class="download-section-title">
+      <span class="os-icon">🖥</span>
+      <h2>Windows 客户端下载</h2>
+    </div>
+    <table class="download-table">
+      <thead>
+        <tr><th>软件名称</th><th>特点</th><th>下载地址</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Clash Verge Rev</strong> <span class="badge new">推荐</span></td>
+          <td>开源、界面现代、支持中文</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/CVR/Clash.Verge_2.3.1_x64-setup.exe" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/CVR/Clash.Verge_2.3.1_x64-setup.exe" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/clash-verge-rev/clash-verge-rev/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>FlClash</strong> <span class="badge new">推荐</span></td>
+          <td>基于 Flutter、多平台统一</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/FlClash-0.8.86-windows-amd64-setup.exe" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/FlClash-0.8.86-windows-amd64-setup.exe" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/chen08209/FlClash/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Mihomo Party</strong></td>
+          <td>新兴、轻量级、电子风格</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/mihomo-party-windows-1.7.6-x64-setup.exe" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/mihomo-party-windows-1.7.6-x64-setup.exe" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/mihomo-party-org/mihomo-party/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Clash Nyanpasu</strong></td>
+          <td>界面可爱、功能丰富</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/Clash.Nyanpasu_1.6.1_x64-setup.exe" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/Clash.Nyanpasu_1.6.1_x64-setup.exe" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/libnyanpasu/clash-nyanpasu/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>v2rayN</strong></td>
+          <td>订阅/分流/测速首选</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/v2rayN-windows-64-SelfContained.zip" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/v2rayN-windows-64-SelfContained.zip" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/2dust/v2rayN/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Clash Mi</strong></td>
+          <td>新锐客户端</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/clashmi_1.0.5.91_windows_x64.exe" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/clashmi_1.0.5.91_windows_x64.exe" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/KaringX/clashmi/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Pandora-Box</strong></td>
+          <td>潘多拉盒子</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/pandorabox_windows-amd64-app.zip" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/snakem982/Pandora-Box/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Clash Verge</strong> <span class="badge stopped">已删库</span></td>
+          <td>已停止维护</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/Clash.Verge_1.3.8_x64_zh-CN.msi" class="btn btn-fast">高速下载</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Clash for Windows</strong> <span class="badge stopped">已删库</span></td>
+          <td>经典版本</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/Clash.for.Windows-0.20.39-win-CN.7z" class="btn btn-fast">高速下载</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Android Section -->
+  <section id="android" class="content-section">
+    <div class="download-section-title">
+      <span class="os-icon">🤖</span>
+      <h2>Android 客户端下载</h2>
+    </div>
+    <table class="download-table">
+      <thead>
+        <tr><th>软件名称</th><th>特点</th><th>下载地址</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Clash Meta for Android</strong></td>
+          <td>功能最强，支持 Meta 核心</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/cmfa-2.11.14-meta-universal-release.apk" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://download.cloudnode.vip/soft/cmfa-2.11.14-meta-universal-release.apk" class="btn btn-backup">备用下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>v2rayNG</strong></td>
+          <td>上手简单，稳定性高</td>
+          <td>
+            <a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/v2rayNG_1.10.8_universal.apk" class="btn btn-fast">高速下载</a>
+            <a target="_blank" rel="noopener" href="https://github.com/2dust/v2rayNG/releases" class="btn btn-github">GitHub</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Surfboard</strong></td>
+          <td>界面精美，完美适配 Surge 配置</td>
+          <td><a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/Surfboard-v2.24.4.apk" class="btn btn-fast">高速下载</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- iOS Section -->
+  <section id="ios" class="content-section">
+    <div class="download-section-title">
+      <span class="os-icon">🍎</span>
+      <h2>iOS 客户端下载</h2>
+    </div>
+    <div class="alert-box">⚠️ 提示：需使用非大陆 Apple ID 登录 App Store 后下载。</div>
+    <table class="download-table">
+      <thead>
+        <tr><th>软件名称</th><th>特点</th><th>链接</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Shadowrocket</strong>（小火箭）</td><td>最流行、全能工具（$2.99）</td><td><a href="https://apps.apple.com/app/apple-store/id932747118" class="btn btn-store" target="_blank">App Store</a></td></tr>
+        <tr><td><strong>Stash</strong></td><td>Clash for iOS（$3.99）</td><td><a href="https://apps.apple.com/app/apple-store/id1596063349" class="btn btn-store" target="_blank">App Store</a></td></tr>
+        <tr><td><strong>Quantumult X</strong></td><td>脚本丰富、专业工具（$7.99）</td><td><a href="https://apps.apple.com/app/apple-store/id1443988620" class="btn btn-store" target="_blank">App Store</a></td></tr>
+        <tr><td><strong>Hiddify App</strong></td><td>开源、跨平台</td><td><a target="_blank" rel="noopener" href="https://github.com/hiddify/hiddify-app/releases" class="btn btn-github">GitHub</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- macOS Section -->
+  <section id="macos" class="content-section">
+    <div class="download-section-title">
+      <span class="os-icon">💻</span>
+      <h2>macOS 客户端下载</h2>
+    </div>
+    <table class="download-table">
+      <thead>
+        <tr><th>软件名称</th><th>特点</th><th>下载地址</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Clash Verge Rev</strong></td>
+          <td>支持 M1/M2/M3 及 Intel</td>
+          <td><a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/CVR/Clash.Verge_2.3.1_aarch64.dmg" class="btn btn-fast">高速下载</a></td>
+        </tr>
+        <tr>
+          <td><strong>ClashX Meta</strong></td>
+          <td>基于 Meta 核心</td>
+          <td><a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/ClashX.Meta.zip" class="btn btn-fast">高速下载</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- HarmonyOS Section -->
+  <section id="harmonyos" class="content-section">
+    <div class="download-section-title">
+      <span class="os-icon">📱</span>
+      <h2>HarmonyOS NEXT 客户端</h2>
+    </div>
+    <table class="download-table">
+      <thead>
+        <tr><th>软件名称</th><th>特点</th><th>下载地址</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>ClashBox</strong></td><td>原生开发（Hap）</td><td><a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/ClashBox-1.4.7.hap" class="btn btn-fast">高速下载</a></td></tr>
+        <tr><td><strong>ClashNEXT</strong></td><td>原生开发（Hap）</td><td><a target="_blank" rel="noopener" href="https://dl.cloudnode.vip/soft/ClashNEXT-LTS-1.5.1.hap" class="btn btn-fast">高速下载</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+</div>

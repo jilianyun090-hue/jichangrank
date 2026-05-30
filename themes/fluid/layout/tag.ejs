@@ -1,0 +1,13 @@
+<%
+page.layout = "tag"
+page.title = [__('tag.title'), page.tag].join(" - ")
+page.subtitle = [__('tag.subtitle'), page.tag].join(" - ")
+page.banner_img = theme.tag.banner_img
+page.banner_img_height = theme.tag.banner_img_height
+page.banner_mask_alpha = theme.tag.banner_mask_alpha
+
+var tag = site.tags.find({name: page.tag}).filter(tag => tag.length).data[0]
+%>
+
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;"><%= page.title %></h1>
+<%- partial('_partials/archive-list.ejs', { params: { key: page.layout, postTotal: tag ? tag.posts.length : 0 } }) %>
