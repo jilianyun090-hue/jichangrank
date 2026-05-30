@@ -1,19 +1,154 @@
-<div class="list-group">
-  <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;"><%= page.title || '归档' %></h1>
-  <p class="h4"><%= __(params.key + '.post_total', params.postTotal) %></p>
+<style>
+  .archive-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .archive-card {
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 24px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+    height: 100%;
+    border: none !important;
+  }
+  .archive-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.06) !important;
+  }
+  
+  /* Theme Light Styles */
+  .archive-card.theme-blue {
+    background: #f0f5ff;
+  }
+  .archive-card.theme-blue .card-title {
+    color: #2b6cb0;
+  }
+  
+  .archive-card.theme-green {
+    background: #f0fff4;
+  }
+  .archive-card.theme-green .card-title {
+    color: #2f855a;
+  }
+  
+  .archive-card.theme-orange {
+    background: #fffaf0;
+  }
+  .archive-card.theme-orange .card-title {
+    color: #c05621;
+  }
+  
+  .archive-card .card-desc {
+    color: #4a5568;
+  }
 
-  <hr>
-  <% var dateCursor %>
-  <% page.posts.each(function (post) { %>
-    <% if(date(post.date, "YYYY") !== dateCursor) { %>
-      <% dateCursor = date(post.date, "YYYY") %>
-      <p class="h5"><%= dateCursor %></p>
-    <% } %>
-    <a href="<%= url_for(post.path) %>" class="list-group-item list-group-item-action">
-      <time><%= date(post.date, "MM-DD") %></time>
-      <div class="list-group-item-title"><%= post.title %></div>
-    </a>
-  <% }) %>
+  /* Theme Dark Styles */
+  [data-user-color-scheme='dark'] .archive-card.theme-blue {
+    background: rgba(91, 115, 232, 0.1) !important;
+  }
+  [data-user-color-scheme='dark'] .archive-card.theme-blue .card-title {
+    color: #90cdf4 !important;
+  }
+  
+  [data-user-color-scheme='dark'] .archive-card.theme-green {
+    background: rgba(72, 187, 120, 0.1) !important;
+  }
+  [data-user-color-scheme='dark'] .archive-card.theme-green .card-title {
+    color: #9ae6b4 !important;
+  }
+  
+  [data-user-color-scheme='dark'] .archive-card.theme-orange {
+    background: rgba(237, 137, 54, 0.1) !important;
+  }
+  [data-user-color-scheme='dark'] .archive-card.theme-orange .card-title {
+    color: #fbd38d !important;
+  }
+  
+  [data-user-color-scheme='dark'] .archive-card .card-desc {
+    color: #a0aec0 !important;
+  }
+</style>
+
+<div class="archive-list-container">
+  <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;"><%= page.title || '归档' %></h1>
+  <p class="h4" style="margin-bottom: 20px; font-weight: 600;"><%= __(params.key + '.post_total', params.postTotal) %></p>
+
+  <div class="archive-card-grid">
+    <% page.posts.each(function (post, index) { %>
+      <%
+        // Choose theme based on index
+        var themeIndex = index % 3;
+        var themeClass = "theme-blue";
+        if (themeIndex === 1) {
+          themeClass = "theme-green";
+        } else if (themeIndex === 2) {
+          themeClass = "theme-orange";
+        }
+
+        // Check if post title already contains emoji
+        var titleText = post.title || '';
+        var hasEmoji = false;
+        if (/^[\uD800-\uDBFF\uDC00-\uDFFF\u2600-\u27BF]/.test(titleText)) {
+          hasEmoji = true;
+        }
+        
+        var emoji = "";
+        if (!hasEmoji) {
+          var t = (post.tags ? post.tags.map(x => x.name || x) : []).join(' ');
+          var titleLower = titleText.toLowerCase();
+          if (titleLower.includes('游戏') || titleLower.includes('steam') || t.includes('游戏') || t.includes('Steam')) {
+            emoji = "🎮 ";
+          } else if (titleLower.includes('mac') || titleLower.includes('surge') || t.includes('Mac') || t.includes('Surge')) {
+            emoji = "🖥️ ";
+          } else if (titleLower.includes('android') || titleLower.includes('安卓') || titleLower.includes('sing-box') || t.includes('Android') || t.includes('Sing-Box')) {
+            emoji = "📱 ";
+          } else if (titleLower.includes('开发') || titleLower.includes('git') || titleLower.includes('docker') || titleLower.includes('终端') || t.includes('开发') || t.includes('Git') || t.includes('Docker')) {
+            emoji = "💻 ";
+          } else if (titleLower.includes('协议') || titleLower.includes('vless') || titleLower.includes('trojan') || t.includes('协议') || t.includes('Vless') || t.includes('Trojan')) {
+            emoji = "🔒 ";
+          } else if (titleLower.includes('测速') || titleLower.includes('延迟') || titleLower.includes('速度') || t.includes('测速') || t.includes('速度')) {
+            emoji = "⚡ ";
+          } else if (titleLower.includes('路由') || titleLower.includes('openwrt') || t.includes('路由') || t.includes('OpenWrt')) {
+            emoji = "🔧 ";
+          } else if (titleLower.includes('ip') || titleLower.includes('chatgpt') || titleLower.includes('gpt') || t.includes('IP') || t.includes('ChatGPT')) {
+            emoji = "🔄 ";
+          } else if (titleLower.includes('流媒体') || titleLower.includes('netflix') || titleLower.includes('网飞') || titleLower.includes('disney') || t.includes('流媒体') || t.includes('Netflix')) {
+            emoji = "🎬 ";
+          } else if (titleLower.includes('外贸') || titleLower.includes('跨境') || titleLower.includes('电商') || t.includes('外贸') || t.includes('电商')) {
+            emoji = "🌍 ";
+          } else if (titleLower.includes('测评') || titleLower.includes('评测') || titleLower.includes('机场推荐') || titleLower.includes('推荐') || t.includes('机场推荐')) {
+            emoji = "🔍 ";
+          } else {
+            emoji = "📚 ";
+          }
+        }
+      %>
+      <a href="<%= url_for(post.path) %>" class="archive-card <%= themeClass %>">
+        <div class="card-title" style="font-weight: 700; font-size: 1.1em; margin-bottom: 12px; line-height: 1.4; display: flex; align-items: flex-start; gap: 8px;">
+          <% if (emoji) { %>
+            <span style="flex-shrink: 0;"><%= emoji %></span>
+          <% } %>
+          <span><%= titleText %></span>
+        </div>
+        <div class="card-desc" style="font-size: 0.9em; line-height: 1.6; flex-grow: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+          <%= post.description || post.excerpt || strip_html(post.content).substring(0, 100) + '...' %>
+        </div>
+        <div style="font-size: 0.8em; color: #a0aec0; margin-top: 16px; display: flex; justify-content: space-between; align-items: center;">
+          <span>📅 <%= date(post.date, "YYYY-MM-DD") %></span>
+          <% if(post.categories && post.categories.length > 0) { %>
+            <span style="background: rgba(0,0,0,0.04); padding: 2px 8px; border-radius: 4px; color: #718096;"><%= post.categories.map(c => c.name).join(', ') %></span>
+          <% } %>
+        </div>
+      </a>
+    <% }) %>
+  </div>
 </div>
 
 <%- partial('_partials/paginator') %>
+
