@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
   - .htaccess
   - robots.txt
-  - 5dd97089de5a4fe88edd670e8d42d2a7.txt
+  - cdba31bbcf50405c8ec5463795b2689d.txt
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -112,7 +112,7 @@ sitemap:
 
 # IndexNow (hexo-indexnow plugin config)
 hexo_indexnow:
-  apikey: 5dd97089de5a4fe88edd670e8d42d2a7
+  apikey: cdba31bbcf50405c8ec5463795b2689d
   count: latest
   server: bing
   txt_name: indexnow_urls.txt
