@@ -492,6 +492,30 @@ permalink: home_content.html
   [data-user-color-scheme='dark'] .tech-intro-section p {
     color: #a7a9ad;
   }
+
+  /* ===== Related Articles Grid ===== */
+  .article-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  }
+  .article-card:hover {
+    transform: translateY(-4px);
+    border-color: #5b73e8 !important;
+    box-shadow: 0 10px 20px rgba(91, 115, 232, 0.08) !important;
+  }
+  [data-user-color-scheme='dark'] .article-card {
+    background: #1f2731 !important;
+    border-color: #435266 !important;
+  }
+  [data-user-color-scheme='dark'] .article-card h4 {
+    color: #e2e8f0 !important;
+  }
+  [data-user-color-scheme='dark'] .article-card p {
+    color: #a7a9ad !important;
+  }
+  [data-user-color-scheme='dark'] .article-card:hover {
+    border-color: #5b73e8 !important;
+    box-shadow: 0 10px 20px rgba(91, 115, 232, 0.2) !important;
+  }
 </style>
 
 <!-- TOC Active Link Highlight Script -->
@@ -2536,6 +2560,136 @@ permalink: home_content.html
   <div class="airport-section-ft">
     <a href="https://airportgo.org/go.php" target="_blank" class="btn btn-fast">前往官网注册</a>
     <a href="/qingyunti.html" class="btn btn-backup">查看完整评测</a>
+  </div>
+</div>
+
+<!-- Technical Guides and Config Articles -->
+<div class="tech-intro-section" style="margin-top: 40px; border-radius: 12px; border: 1px solid #edf2f7; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); padding: 25px;">
+  <h2 style="font-size: 1.3em; border-left: 4px solid #5b73e8; padding-left: 12px; margin-top: 0; margin-bottom: 20px; color: #2d3748; display: flex; align-items: center; gap: 8px;">
+    📚 机场配置教程与科学上网指南
+  </h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+    
+    <!-- Card 1 -->
+    <a href="/post-trade.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">外贸专线</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">2026外贸专线机场选择指南</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">低延迟IEPL物理专线如何助力跨境电商出海，提升海外营销与业务管理效率。</p>
+    </a>
+
+    <!-- Card 2 -->
+    <a href="/post-clash-verge.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">客户端</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">Clash Verge新手配置指引</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">新手从导入机场订阅链接、开启系统代理到规则分流的完整保姆级图文教程。</p>
+    </a>
+
+    <!-- Card 3 -->
+    <a href="/post-protocols.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">传输协议</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">2026常用节点传输协议剖析</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">深度剖析 Shadowsocks、Trojan、Vless 协议的特点、抗封锁原理与适用场景。</p>
+    </a>
+
+    <!-- Card 4 -->
+    <a href="/post-speed-test.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">网络测速</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">如何科学测试机场节点速度</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">指导新手如何使用专业测速工具和多维指标评估机场真实速度与晚高峰稳定性。</p>
+    </a>
+
+    <!-- Card 5 -->
+    <a href="/post-mac-surge.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">macOS</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">Mac系统Surge与Clash配置</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">苹果macOS系统下如何高效配置Surge Mac和Clash客户端，开启智能分流托管。</p>
+    </a>
+
+    <!-- Card 6 -->
+    <a href="/post-game-acceleration.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">游戏加速</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">低延迟游戏专线机场推荐</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">科普如何利用低延迟、零丢包的IEPL专线节点实现联机加速，告别丢包卡顿。</p>
+    </a>
+
+    <!-- Card 7 -->
+    <a href="/post-android-singbox.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">Android</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">安卓手机Sing-Box配置教程</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">2026全新安卓手机Sing-Box配置指引，教你导入机场配置文件并开启高效分流。</p>
+    </a>
+
+    <!-- Card 8 -->
+    <a href="/post-peak-congestion.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">科普知识</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">为什么机场晚高峰会卡顿</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">深度解析高峰期骨干网拥堵与GFW干扰原因，科普BGP入口中转与专线抗堵机制。</p>
+    </a>
+
+    <!-- Card 9 -->
+    <a href="/post-developer-proxy.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">开发者</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">程序员终端与Git代理配置</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">跨国开发协同必备，详细讲解终端命令行、Git、Docker以及核心依赖的代理设置。</p>
+    </a>
+
+    <!-- Card 10 -->
+    <a href="/post-router-openwrt.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">软路由</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">路由器OpenWrt刷Clash配置</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">手把手教你如何利用OpenWrt软/硬路由器配置OpenClash，实现全屋设备无感上网。</p>
+    </a>
+
+    <!-- Card 11 -->
+    <a href="/post-rotating-ip.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">AI风控</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">高频IP轮换防封锁机场盘点</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">ChatGPT提示Access Denied？科普高频IP轮换与双ISP住宅原生节点抗封锁原理。</p>
+    </a>
+
+    <!-- Card 12 -->
+    <a href="/post-4k-streaming.html" class="article-card" style="text-decoration: none; color: inherit; display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+      <div style="font-size: 0.75em; color: #5b73e8; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <span style="background: rgba(91, 115, 232, 0.1); padding: 2px 8px; border-radius: 4px;">流媒体</span>
+        <span style="color: #a0aec0;">2026-05-30</span>
+      </div>
+      <h4 style="margin: 0 0 8px 0; font-size: 1.05em; color: #2d3748; line-height: 1.4; font-weight: 600;">如何流畅看网飞与Disney+</h4>
+      <p style="margin: 0; font-size: 0.85em; color: #718096; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">深度解析海外4K流媒体版权封锁与宽带门槛，教你如何选择解锁的专线节点。</p>
+    </a>
+
   </div>
 </div>
 
