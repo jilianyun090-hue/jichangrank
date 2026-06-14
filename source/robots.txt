@@ -8,5 +8,7 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /home_content.html
 Disallow: /home_content
+Disallow: /local-search.xml
+Disallow: /indexnow_urls.txt
 
 Sitemap: https://jichangrank.com/sitemap.xml
