@@ -80,7 +80,7 @@ description: "在当前的互联网环境下，寻找稳定、高速的机场推
 
 ### 其他优秀候补机场
 *   **山水云**：[点击前往](https://ss2.byvvcsx.com/#/register?code=jkziWeb8)（中转+直连双线，GPT/Tiktok全解锁，¥14.99/月起）📖 [查看评测](/shanshui.html)
-*   **秒秒云**：[点击前往](https://dl1.mmy8.com/#/register?code=g3bq7bpK)（中转高速节点，多媒体GPT全解锁，宇记官网秒秒.com，¥14/月起）📖 [查看评测](/miaomiao.html)
+*   **秒秒云**：[点击前往](https://mdl3.mxjcbg.com/#/register?code=g3bq7bpK)（中转高速节点，多媒体GPT全解锁，宇记官网秒秒.com，¥14/月起）📖 [查看评测](/miaomiao.html)
 *   **星岛梦**：[点击前往](https://wuyou202001.xdmvipaff.cc/#/?code=olWCiAhj)（全IEPL专线+Trojan协议，不限速不限设备，¥16/月起）📖 [查看评测](/xingdao.html)
 *   **唯兔云**：[点击前往](https://haoze.v2yunvipaff.com/#/?code=trJG2874)（全IPLC专线，不限速不限设备，¥14.90/月起）📖 [查看评测](/weituyun.html)
 *   **U1S1**：[点击前往](https://haoze.vipaff.cc/#/?code=TV9ROgLG)（BGP三网+IEPL，Netflix/DAZN全解锁，¥20/月起）📖 [查看评测](/u1s1.html)
@@ -88,7 +88,7 @@ description: "在当前的互联网环境下，寻找稳定、高速的机场推
 *   **飞鸟**：[点击前往](https://airportgo.org/go.php)（全IPLC专线，无倍率不限设备，¥15/月起）📖 [查看评测](/feiniao.html)
 *   **光速云**：[点击前往](https://kjlq01.gsyvipaff.cc/#/?code=b1OTkTeL)（BGP/IEPL，全节点x1倍率，¥17/月起）📖 [查看评测](/guangsu.html)
 *   **花云**：[点击前往](https://api-flowercloud.com/aff.php?aff=16018)（BGP入口专线，2020年老牌，¥39/月起）📖 [查看评测](/hua.html)
-*   **光年梯**：[点击前往](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)（IEPL专线，24小时客服，¥18/月起）📖 [查看评测](/guangnian.html)
+*   **光年梯**：[点击前往](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)（IEPL专线，24小时客服，¥89/年起）📖 [查看评测](/guangnian.html)
 *   **全球云**：[点击前往](https://haozevpn.gcvipaff.cc/#/?code=WRQJc2v4)（BGP智能调度，完整解锁流媒体，¥20/月起）📖 [查看评测](/global.html)
 
 ---
@@ -199,4 +199,4 @@ ANYCAST直连专线，全线无倍率不限速，年付低至¥8.25/月，高性
 
 无论是需要稳定AI工具访问的工作者，还是追求高质量流媒体体验的娱乐用户，秒秒云都是2026年不可忽视的优质选择。其在价格、稳定性和解锁能力三者之间取得的平衡，让它在竞争激烈的中端机场市场中站稳了脚跟。
 
-> 🔗 **注册链接**：[点击注册秒秒云](https://dl1.mmy8.com/#/register?code=g3bq7bpK) | 📖 [查看完整评测](/miaomiao.html)
+> 🔗 **注册链接**：[点击注册秒秒云](https://mdl3.mxjcbg.com/#/register?code=g3bq7bpK) | 📖 [查看完整评测](/miaomiao.html)
