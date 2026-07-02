@@ -17,9 +17,9 @@ description: "2026年最新Clash Verge配置指引，手把手教新手导入机
 
 ### 2. 获取并导入机场订阅链接
 
-在[机场推荐](https://jichangrank.com/)中，无论是性价比卓越的极连云，还是老牌稳定的光年梯，都为用户提供了极其便捷的“一键导入”功能：
+在[机场推荐](https://jichang360.net/)中，无论是性价比卓越的极连云，还是老牌稳定的光年梯，都为用户提供了极其便捷的“一键导入”功能：
 
-1.  登录您的机场后台（如[极连云](https://jichangrank.com/jilian.html)或[瞬云机场](https://jichangrank.com/shunyun.html)）。
+1.  登录您的机场后台（如[极连云](https://jichang360.net/jilian.html)或[瞬云机场](https://jichang360.net/shunyun.html)）。
 2.  在仪表盘页面找到“捷径”或“一键导入”区域，点击“复制订阅链接”或点击“一键导入 Clash/Clash Verge”。
 3.  如果选择复制链接，回到 Clash Verge 软件中，点击左侧导航栏的 **Profiles** (配置文件)。
 4.  在顶部的输入框中粘贴您刚复制的订阅 URL 链接，点击右侧的 **Import** (导入) 按钮。
@@ -33,7 +33,7 @@ description: "2026年最新Clash Verge配置指引，手把手教新手导入机
 *   **Global (全局模式)**：所有网络请求全部走代理节点。适合在部分国外冷门网站分流规则失效时，或者临时进行全球网络访问调试时使用。
 *   **Direct (直连模式)**：所有流量均不走代理。相当于临时关闭了代理软件。
 
-在策略组中，您可以手动选择延迟最低或最稳定的节点。例如，针对跨境业务和高带宽下载，建议选择[寰宇云](https://jichangrank.com/huanyuyun.html)或[光年梯](https://jichangrank.com/guangnian.html)的专线节点以获得不限速的极致体验。
+在策略组中，您可以手动选择延迟最低或最稳定的节点。例如，针对跨境业务和高带宽下载，建议选择[寰宇云](https://jichang360.net/huanyuyun.html)或[光年梯](https://jichang360.net/guangnian.html)的专线节点以获得不限速的极致体验。
 
 ### 4. 开启系统代理与开机自启
 

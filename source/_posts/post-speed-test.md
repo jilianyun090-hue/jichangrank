@@ -33,12 +33,12 @@ Speedtest 是目前最权威的网速测试工具。在测试时，务必将测�
 
 ### 3. 主流机场在稳定性与测速方面的表现
 
-在我们的日常测速中，几家主打 [机场推荐](https://jichangrank.com/) 的服务商在多项指标中均取得了亮眼的表现：
+在我们的日常测速中，几家主打 [机场推荐](https://jichang360.net/) 的服务商在多项指标中均取得了亮眼的表现：
 
-*   **[极连云](https://jichangrank.com/jilian.html)**：在 Speedtest 和 YouTube 8K 测速中表现出高额的下行带宽，其无倍率限速特性可以让用户在千兆宽带下轻松跑满物理带宽极限，延迟控制极佳。
-*   **[瞬云机场](https://jichangrank.com/shunyun.html)**：由于引进了 Anycast 接入，其 Ping 值表现极其平稳。在进行 24 小时 Ping 丢包率测试时，几乎是一条平滑的直线，几乎没有抖动。
-*   **[寰宇云](https://jichangrank.com/huanyuyun.html)**：在 Fast.com 的专项流媒体测试中得分最高，其原生 IP 解锁节点稳定维持在 100Mbps 以上，保障超清 HDR 画质丝滑播放。
-*   **[光年梯](https://jichangrank.com/guangnian.html)**：在极其严苛的晚高峰丢包测试中展现了老牌机场底蕴，物理 IEPL 专线的可靠性使其在晚上8点至11点期间测试仍能保持零丢包率。
+*   **[极连云](https://jichang360.net/jilian.html)**：在 Speedtest 和 YouTube 8K 测速中表现出高额的下行带宽，其无倍率限速特性可以让用户在千兆宽带下轻松跑满物理带宽极限，延迟控制极佳。
+*   **[瞬云机场](https://jichang360.net/shunyun.html)**：由于引进了 Anycast 接入，其 Ping 值表现极其平稳。在进行 24 小时 Ping 丢包率测试时，几乎是一条平滑的直线，几乎没有抖动。
+*   **[寰宇云](https://jichang360.net/huanyuyun.html)**：在 Fast.com 的专项流媒体测试中得分最高，其原生 IP 解锁节点稳定维持在 100Mbps 以上，保障超清 HDR 画质丝滑播放。
+*   **[光年梯](https://jichang360.net/guangnian.html)**：在极其严苛的晚高峰丢包测试中展现了老牌机场底蕴，物理 IEPL 专线的可靠性使其在晚上8点至11点期间测试仍能保持零丢包率。
 
 ### 4. 关键测速时段：如何揪出“虚标机场”？
 

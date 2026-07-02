@@ -13,7 +13,7 @@ description: "2026年最新安卓手机Sing-Box客户端配置教程，一步步
 
 由于 Google Play 商店在部分地区无法直接访问，建议您通过以下安全渠道获取最新的稳定版安装包：
 *   **官方 GitHub Release**：前往项目官方开源地址下载最新发布的 `.apk` 文件。
-*   **机场后台下载链接**：各大主流[机场推荐](https://jichangrank.com/)后台通常也提供了直链下载，方便用户直接获取对应包体。
+*   **机场后台下载链接**：各大主流[机场推荐](https://jichang360.net/)后台通常也提供了直链下载，方便用户直接获取对应包体。
 
 下载完成后，安装并赋予软件创建网络连接的虚拟网卡权限。
 
@@ -22,7 +22,7 @@ description: "2026年最新安卓手机Sing-Box客户端配置教程，一步步
 目前，大多数主流优质机场已经对 Sing-Box 进行了完美兼容。您可以直接在机场后台获取 Sing-Box 专用配置文件。
 
 #### 步骤一：在机场后台获取链接
-1.  登录您的机场（例如性价比极高的[极连云](https://jichangrank.com/jilian.html)或防封锁先锋[瞬云机场](https://jichangrank.com/shunyun.html)）。
+1.  登录您的机场（例如性价比极高的[极连云](https://jichang360.net/jilian.html)或防封锁先锋[瞬云机场](https://jichang360.net/shunyun.html)）。
 2.  在仪表盘找到订阅导入区域，选择并点击 **复制 Sing-Box 订阅链接**。如果是只提供 Clash 链接的机场，您也可以使用支持在线转换的订阅转换工具将其转换为 Sing-Box 支持 of JSON 格式。
 
 #### 步骤二：在 Sing-Box APP 中导入
@@ -40,7 +40,7 @@ description: "2026年最新安卓手机Sing-Box客户端配置教程，一步步
 配置文件导入成功后，返回 APP 首页 (Dashboard) 菜单：
 
 1.  点击页面中间 of the **Dashboard**，在策略组中，您可以自由切换网络延迟最低的节点。
-2.  对于日常高负载和极速下载需求，可以手动选择[寰宇云](https://jichangrank.com/huanyuyun.html)或[光年梯](https://jichangrank.com/guangnian.html)提供的 IEPL 游戏/工作专线节点，不限速不卡顿。
+2.  对于日常高负载和极速下载需求，可以手动选择[寰宇云](https://jichang360.net/huanyuyun.html)或[光年梯](https://jichang360.net/guangnian.html)提供的 IEPL 游戏/工作专线节点，不限速不卡顿。
 3.  返回首页，点击右下角巨大的 **Start** 按钮开启服务。系统会自动弹出 VPN 连接请求窗口，点击“确定”或“允许”即可。
 
 ### 4. Sing-Box 安卓常见故障排查与调优

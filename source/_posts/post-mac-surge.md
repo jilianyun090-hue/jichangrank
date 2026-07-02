@@ -14,7 +14,7 @@ description: "苹果macOS系统下如何高效配置Surge Mac和Clash客户端�
 Surge Mac 是一款收费且功能极其强大的网络分析与代理工具。它不仅支持智能路由分流，还能进行抓包分析和本地网络规则重写。
 
 #### 步骤一：获取托管配置
-1.  登录您的机场控制台（例如，[极连云](https://jichangrank.com/jilian.html)或[光年梯](https://jichangrank.com/guangnian.html)）。
+1.  登录您的机场控制台（例如，[极连云](https://jichang360.net/jilian.html)或[光年梯](https://jichang360.net/guangnian.html)）。
 2.  在订阅获取页面找到 **Surge 托管** 或 **Surge 4/5 订阅**，点击复制托管链接。
 3.  如果机场只提供了普通 Clash 链接，您可以使用可靠的 API 转换工具将其转化为 Surge 专用的 `.conf` 托管配置文件链接。
 
@@ -30,7 +30,7 @@ Surge Mac 是一款收费且功能极其强大的网络分析与代理工具。�
 对于不想花费高昂费用购买 Surge 授权的用户，**Clash Verge Mac 版** 是完美的替代方案。它原生支持 M1/M2/M3 系列苹果芯片，运行稳定。
 
 #### 步骤一：导入 Clash 订阅
-1.  登录您的机场（如[瞬云机场](https://jichangrank.com/shunyun.html)或[寰宇云](https://jichangrank.com/huanyuyun.html)），复制 Clash 订阅链接。
+1.  登录您的机场（如[瞬云机场](https://jichang360.net/shunyun.html)或[寰宇云](https://jichang360.net/huanyuyun.html)），复制 Clash 订阅链接。
 2.  打开 Clash Verge，点击左侧的 **Profiles**，在顶部框中粘贴链接，点击 **Import** 导入。
 3.  成功后激活该配置文件（卡片边缘显示为绿色）。
 

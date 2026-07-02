@@ -11,4 +11,4 @@ Disallow: /home_content
 Disallow: /local-search.xml
 Disallow: /indexnow_urls.txt
 
-Sitemap: https://jichangrank.com/sitemap.xml
+Sitemap: https://jichang360.net/sitemap.xml

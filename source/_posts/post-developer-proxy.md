@@ -97,9 +97,9 @@ git config --global --unset https.proxy
 
 ### 4. 适合高强度开发的专线机场推荐
 
-频繁下载庞大的海外依赖对代理的稳定性与速度上限是严苛的考验。在 [机场推荐](https://jichangrank.com/) 方案中，我们推荐以下最适合程序员作为底层生产力的服务商：
+频繁下载庞大的海外依赖对代理的稳定性与速度上限是严苛的考验。在 [机场推荐](https://jichang360.net/) 方案中，我们推荐以下最适合程序员作为底层生产力的服务商：
 
-*   **[极连云](https://jichangrank.com/jilian.html)**：提供纯净的专线网络，国内直接接入骨干网，测试拉取大依赖（如 Github 的大项目）时，下载速度极佳，且没有封锁和丢包，大幅缩短构建时间。
-*   **[瞬云机场](https://jichangrank.com/shunyun.html)**：对开发环境非常友好，特别提供支持全平台主流客户端一键导入的配置，Anycast 极速调度保证任何紧急部署都能顺畅运行。
-*   **[寰宇云](https://jichangrank.com/huanyuyun.html)**：提供极高吞吐的 IEPL 专线，适合拉取体积庞大的 Docker 镜像或模型数据，带宽极大。
-*   **[光年梯](https://jichangrank.com/guangnian.html)**：提供极其稳健的企业级静态 IP 和长周期高稳定性链路支持，是跨国协同和远程服务器维护最安全的选择。
+*   **[极连云](https://jichang360.net/jilian.html)**：提供纯净的专线网络，国内直接接入骨干网，测试拉取大依赖（如 Github 的大项目）时，下载速度极佳，且没有封锁和丢包，大幅缩短构建时间。
+*   **[瞬云机场](https://jichang360.net/shunyun.html)**：对开发环境非常友好，特别提供支持全平台主流客户端一键导入的配置，Anycast 极速调度保证任何紧急部署都能顺畅运行。
+*   **[寰宇云](https://jichang360.net/huanyuyun.html)**：提供极高吞吐的 IEPL 专线，适合拉取体积庞大的 Docker 镜像或模型数据，带宽极大。
+*   **[光年梯](https://jichang360.net/guangnian.html)**：提供极其稳健的企业级静态 IP 和长周期高稳定性链路支持，是跨国协同和远程服务器维护最安全的选择。

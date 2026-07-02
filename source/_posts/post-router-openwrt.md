@@ -24,7 +24,7 @@ description: "手把手教你如何利用OpenWrt路由器安装配置Clash/OpenC
 由于各个路由器的 CPU 架构（如 x86_64, Arm, Mips）不同，我们需要下载对应架构的 `.ipk` 格式插件文件，并在 OpenWrt 的 **系统** -> **软件包** (Software) 菜单中上传安装。通常还需要依赖基础组件（如 `luci-compat`、`iptables` 等）。
 
 #### 步骤二：导入机场订阅并生成配置文件
-1.  登录您的机场（例如，[极连云](https://jichangrank.com/jilian.html)或[瞬云机场](https://jichangrank.com/shunyun.html)），在订阅区域复制常规 Clash 订阅链接。
+1.  登录您的机场（例如，[极连云](https://jichang360.net/jilian.html)或[瞬云机场](https://jichang360.net/shunyun.html)），在订阅区域复制常规 Clash 订阅链接。
 2.  进入 OpenWrt 网页后台，在左侧导航栏点击 **服务 (Services)** -> **OpenClash**。
 3.  点击上方选项卡中的 **配置文件管理 (Config Files)**。
 4.  在底部“配置文件下载”处：
@@ -43,11 +43,11 @@ description: "手把手教你如何利用OpenWrt路由器安装配置Clash/OpenC
 
 ### 4. 适合路由器全屋部署的专线机场推荐
 
-全屋多设备并发访问对机场中转链路的稳定度和并发限制是极大的考验。在 [机场推荐](https://jichangrank.com/) 选项中，我们推荐以下几家没有设备数量限制、或支持超高连接并发的高品质服务商：
+全屋多设备并发访问对机场中转链路的稳定度和并发限制是极大的考验。在 [机场推荐](https://jichang360.net/) 选项中，我们推荐以下几家没有设备数量限制、或支持超高连接并发的高品质服务商：
 
-*   **[极连云](https://jichangrank.com/jilian.html)**：不限并发连接数，提供低倍率专线，极其适合路由器全屋部署。多终端同时看视频、打游戏，路由器后台节点负载压力也极小。
-*   **[瞬云机场](https://jichangrank.com/shunyun.html)**：其节点支持完全 of Full-cone NAT，能直接解决游戏主机（PS5 / Switch）联机时的 NAT 类型问题，让网络状态轻松达到 NAT A 或 NAT B，极大提升联机匹配速度。
-*   **[寰宇云](https://jichangrank.com/huanyuyun.html)**：其顶级专线套餐专门为高并发多设备环境优化，在家庭与小型工作室的多设备网关环境中具有极其卓越的速度表现。
-*   **[光年梯](https://jichangrank.com/guangnian.html)**：老牌机场，专线稳定性傲视群雄，如果智能家居设备需要长周期稳定维护与连通，光年梯的高可靠性链路是最佳物理基础。
+*   **[极连云](https://jichang360.net/jilian.html)**：不限并发连接数，提供低倍率专线，极其适合路由器全屋部署。多终端同时看视频、打游戏，路由器后台节点负载压力也极小。
+*   **[瞬云机场](https://jichang360.net/shunyun.html)**：其节点支持完全 of Full-cone NAT，能直接解决游戏主机（PS5 / Switch）联机时的 NAT 类型问题，让网络状态轻松达到 NAT A 或 NAT B，极大提升联机匹配速度。
+*   **[寰宇云](https://jichang360.net/huanyuyun.html)**：其顶级专线套餐专门为高并发多设备环境优化，在家庭与小型工作室的多设备网关环境中具有极其卓越的速度表现。
+*   **[光年梯](https://jichang360.net/guangnian.html)**：老牌机场，专线稳定性傲视群雄，如果智能家居设备需要长周期稳定维护与连通，光年梯的高可靠性链路是最佳物理基础。
 
 通过以上的软路由部署，您可以真正实现跨越设备的“翻墙无感化”。无论手机、Pad 还是电视盒子，只要连上家里的 Wi-Fi，即可畅快直通外网。
