@@ -1,3 +1,66 @@
+# 字节跳动 / 豆包 AI 爬虫
+User-agent: Bytespider
+User-agent: Bytespider-AI
+Allow: /
+
+# 百度 / 文心一言 & 搜索引擎
+User-agent: Baiduspider
+Allow: /
+
+# 阿里 / 通义千问 & 夸克搜索
+User-agent: YisouSpider
+Allow: /
+
+# 搜狗搜索
+User-agent: Sogou web spider
+Allow: /
+
+# 360 智脑 / 奇虎搜索
+User-agent: 360Spider
+Allow: /
+
+# DeepSeek AI 爬虫
+User-agent: DeepSeek-Bot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude AI
+User-agent: ClaudeBot
+User-agent: Claude-Web
+Allow: /
+
+# Google / Gemini
+User-agent: Google-Extended
+User-agent: Googlebot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple AI / Applebot
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# General Search Engines and fallback
 User-agent: *
 Allow: /
 Allow: /archives/
