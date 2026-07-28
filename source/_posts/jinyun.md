@@ -84,11 +84,10 @@ description: "锦云（Jinyun）机场深度评测：采用中转+直连高速�
 
 如果您在同时评估其他机场，可以参考本站 2026 年主推的优质机场：
 
-1.  **极连云** —— 性价比最高，全IPLC专线，月付仅需15元起。👉 [注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
-2.  **边界云** —— IEPL优化线路，3天无理由全额退款保障，年付Lite仅¥148。👉 [注册边界云](https://www.lvpn.cc/r/6UQDZT) | 📖 [查看评测](/bianjiyun.html)
-3.  **瞬云机场** —— ANYCAST高速专线，年付折合¥8.25/月，晚高峰不降速。👉 [注册瞬云](https://bbb.jichang.best/#/register?code=o4I4kToe) | 📖 [查看评测](/shunyun.html)
-4.  **影子VPN** —— 全高速 IEPL 跨境专线，极速晚高峰零丢包，¥18.8/月起。👉 [注册影子VPN](https://www.yingzi01.com/register?code=X7XPN1cS) | 📖 [查看评测](/yingzivpn.html)
-
+1. **飞猫云** —— 全IPLC专线，不限设备，原生IP解锁，月付折合低至12.1元起。👉 [立即注册飞猫云](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) | 📖 [查看评测](/flycat.html)
+2. **极连云** —— 全网性价比王者，IEPL专线不限速，月付仅需7元起。👉 [立即注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
+3. **微风网络** —— 全IPLC专线，不限网速不限设备，月付仅11.4元起。👉 [立即注册微风网络](https://vip01.breezenetaff.com/#/?code=JxFsshSn) | 📖 [查看评测](/breeze.html)
+4. **光年梯** —— 近百节点覆盖，老牌稳定，24小时客服。👉 [立即注册光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
 完整排行榜请参考：[2026年最新机场推荐排行榜](/jichang-tuijian.html)
 
 ---

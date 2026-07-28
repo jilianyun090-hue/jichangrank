@@ -129,11 +129,10 @@ description: "迅达VPN是一家主打多地BGP跨境企业级专线的优质机
 
 如果您希望多家机场对比，可前往本站首页查看完整的 **[2026年机场排行榜](/)**，或查看以下精选机场评测：
 
-1. **极连云** —— 全网性价比王者，IPLC专线不限速。👉 [立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
-2. **寰宇云** —— 全IEPL专线+直连，原生IP解锁，最大2.5Gbps。👉 [立即注册](https://dashboard.huanyuyunvip.com/#/register?code=K6h5VWw2) | 📖 [查看评测](/huanyuyun.html)
-3. **瞬云机场** —— ANYCAST直连专线，无倍率不限速，高性价比。👉 [立即注册](https://bbb.jichang.best/#/register?code=o4I4kToe) | 📖 [查看评测](/shunyun.html)
-4. **光年梯** —— 近百节点覆盖，老牌稳定，24小时客服。👉 [立即注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
-
+1. **飞猫云** —— 全IPLC专线，不限设备，原生IP解锁，月付折合低至12.1元起。👉 [立即注册飞猫云](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) | 📖 [查看评测](/flycat.html)
+2. **极连云** —— 全网性价比王者，IEPL专线不限速，月付仅需7元起。👉 [立即注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
+3. **微风网络** —— 全IPLC专线，不限网速不限设备，月付仅11.4元起。👉 [立即注册微风网络](https://vip01.breezenetaff.com/#/?code=JxFsshSn) | 📖 [查看评测](/breeze.html)
+4. **光年梯** —— 近百节点覆盖，老牌稳定，24小时客服。👉 [立即注册光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
 ---
 
 ## ❓关于该机场有哪些常见问题与解答(FAQ)？

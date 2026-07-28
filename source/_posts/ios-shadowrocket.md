@@ -123,9 +123,8 @@ description: "Shadowrocket（小火箭）是iOS/iPadOS平台上最流行、功�
 
 Shadowrocket 只是工具，需要搭配优质的机场订阅才能发挥全部威力。这里为您推荐 2026 年在 iOS 客户端上体验最佳的四家机场。*(注：如果您对当前机场不满意，可以前往本站 **[首页“机场推荐”](/)** 或 **[机场评测分类](/categories/机场介绍/)** 查看更多优质服务。)*
 
-1.  **极连云** —— 全平台最稳性价比王，iOS订阅一键直跳 Shadowrocket 功能完善。👉 [立即注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
-2.  **寰宇云** —— 香港、日本专线实力雄厚，iOS 导入丝滑。👉 [立即注册寰宇云](https://huanyuyunvip.com/#/register?code=K6h5VWw2) | 📖 [查看评测](/huanyuyun.html)
-3.  **光年梯** —— 极强的抗封锁能力，在特殊时期 iPhone 也能稳稳连上。👉 [立即注册光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
-4.  **瞬云** —— 抗阻断王者，防失联首选，买来当备用永不后悔。👉 [立即注册瞬云](https://bbb.jichang.best/#/register?code=o4I4kToe) | 📖 [查看评测](/shunyun.html)
-
+1. **飞猫云** —— 全IPLC专线，不限设备，原生IP解锁，月付折合低至12.1元起。👉 [立即注册飞猫云](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) | 📖 [查看评测](/flycat.html)
+2. **极连云** —— 全网性价比王者，IEPL专线不限速，月付仅需7元起。👉 [立即注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
+3. **微风网络** —— 全IPLC专线，不限网速不限设备，月付仅11.4元起。👉 [立即注册微风网络](https://vip01.breezenetaff.com/#/?code=JxFsshSn) | 📖 [查看评测](/breeze.html)
+4. **光年梯** —— 近百节点覆盖，老牌稳定，24小时客服。👉 [立即注册光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
 如需更多机场选择，请参考 [2026 年最新翻墙机场推荐排行榜](/jichang-tuijian.html)。

@@ -126,11 +126,10 @@ IEPL（国际以太网专线）是由运营商直接提供的企业级跨国专�
 
 如果您在同时评估其他机场，可以参考本站 2026 年主推的优质机场：
 
-1.  **极连云** —— 性价比最高，全IPLC专线，月付仅需15元起。👉 [注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
-2.  **瞬云机场** —— ANYCAST高速专线，年付折合¥8.25/月，晚高峰不降速。👉 [注册瞬云](https://bbb.jichang.best/#/register?code=o4I4kToe) | 📖 [查看评测](/shunyun.html)
-3.  **寰宇云** —— 全IEPL专线+原生IP，AI工具专用无封号。👉 [注册寰宇云](https://vip3.huanyuyunbest.com/#/register?code=K6h5VWw2) | 📖 [查看评测](/huanyuyun.html)
-4.  **Edge-X** —— IEPL/IPLC专线，无倍率不限速，入门¥16.8/月。👉 [注册Edge-X](https://edge-invite.com/#/register?code=73ienU2h) | 📖 [查看评测](/edge-x.html)
-
+1. **飞猫云** —— 全IPLC专线，不限设备，原生IP解锁，月付折合低至12.1元起。👉 [立即注册飞猫云](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) | 📖 [查看评测](/flycat.html)
+2. **极连云** —— 全网性价比王者，IEPL专线不限速，月付仅需7元起。👉 [立即注册极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) | 📖 [查看评测](/jilian.html)
+3. **微风网络** —— 全IPLC专线，不限网速不限设备，月付仅11.4元起。👉 [立即注册微风网络](https://vip01.breezenetaff.com/#/?code=JxFsshSn) | 📖 [查看评测](/breeze.html)
+4. **光年梯** —— 近百节点覆盖，老牌稳定，24小时客服。👉 [立即注册光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) | 📖 [查看评测](/guangnian.html)
 完整排行榜请参考：[2026年最新机场推荐排行榜](/jichang-tuijian.html)
 
 ---
