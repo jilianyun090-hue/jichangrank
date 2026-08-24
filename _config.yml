@@ -110,10 +110,5 @@ deploy:
 sitemap:
   path: sitemap.xml
 
-# IndexNow (hexo-indexnow plugin config)
-hexo_indexnow:
-  apikey: cdba31bbcf50405c8ec5463795b2689d
-  count: latest
-  server: bing
-  txt_name: indexnow_urls.txt
-  log_urls: false
+# 备注：已移除有问题的 hexo-submit-urls-to-search-engine 插件
+# 待后续手动提交sitemap到搜索引擎
